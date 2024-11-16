@@ -1,0 +1,12 @@
+.project-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: calc(50% - 1rem);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .project-card h3 {
+    color: #0072ff;
+  }
+  

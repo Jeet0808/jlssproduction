@@ -1,0 +1,17 @@
+
+/* Header Section */
+.header {
+    background-color: #121212;
+    color: #fff;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header nav a {
+    margin: 0 1rem;
+    color: #f9f7f7; /* Light color for links */
+    text-decoration: none;
+  }
+  
