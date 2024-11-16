@@ -1,18 +1,28 @@
-import React from "react";
-import "./Home.css";
+
+
+import React, { useState } from "react";
+
+import "./Home.css"; // Import styles for Home
 
 function Home() {
+   
+  
   return (
-    <section id="home" className="home">
-      <h2>
-        Welcome to JLSS
-        <span className="jlss-full-form">
-          <sub>Jeet Laxman Sitaram Solanki & Production Companey</sub>
-        </span>
-      </h2>
-      
-    </section>
+    <div>
+
+        <section id="home" className="home">
+        <h2>
+          Welcome to JLSS
+          <span className="jlss-full-form">
+            <sub>Jeet Laxman Sitaram Solanki & Production Companey</sub>
+          </span>
+        </h2>
+        
+      </section>
+   
+    </div>
   );
 }
 
 export default Home;
+

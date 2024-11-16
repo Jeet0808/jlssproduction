@@ -3,9 +3,11 @@
 .header {
     background-color: #121212;
     color: #fff;
-    padding: 0.8rem;
+    padding: 0.1rem;
+
+    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
   
@@ -15,3 +17,13 @@
     text-decoration: none;
   }
   
+
+button {
+    margin: 0 1rem;
+    color: #f9f7f7; /* Light color for links */
+    background-color: #121212;
+    text-decoration: none;
+    outline: none;
+    border: none;
+   
+  }
